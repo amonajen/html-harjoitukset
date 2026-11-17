@@ -71,6 +71,23 @@
                 </tbody>
             </table>
         </section>
+
+        <section class="osio">
+            <h2>Pöytävaraus</h2>
+
+            <form method="post" action="#">
+                <label for="nimi">Nimi</label>
+                <input type="text" id="nimi" name="nimi" class="lomake-kentta">
+
+                <label for="sahkoposti">Sähköposti</label>
+                <input type="email" id="sahkoposti" name="sahkoposti" class="lomake-kentta">
+
+                <label for="viesti">Viesti: päivä, kellonaika ja henkilömäärä</label>
+                <textarea id="viesti" name="viesti" class="lomake-kentta" rows="4"></textarea>
+
+                <button type="submit" class="nappi">Lähetä</button>
+            </form>
+        </section>
     </div>
 </body>
 </html>
