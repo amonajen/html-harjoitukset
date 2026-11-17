@@ -125,3 +125,14 @@ label {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+.tiedot-lista,
+.ohje-lista {
+    padding-left: 20px;
+}
+
+.tiedot-lista li,
+.ohje-lista li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
