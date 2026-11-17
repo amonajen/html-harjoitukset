@@ -8,10 +8,20 @@
 <body>
     <header id="header">
         <h1>Oma kahvila: Hygge</h1>
+
+        <nav aria-label="Päänavigaatio">
+            <ul>
+                <li><a href="#tietoa">Tietoa kahvilasta</a></li>
+                <li><a href="#valikoima">Valikoima ja tilaaminen</a></li>
+                <li><a href="#lounaslista">Lounaslista</a></li>
+                <li><a href="#poytavaraus">Pöytävaraus</a></li>
+                <li><a href="#linkit">Linkit</a></li>
+            </ul>
+        </nav>
     </header>
 
     <div class="container">
-        <section class="osio">
+        <section class="osio" id="tietoa">
             <h2>Tietoa kahvilasta</h2>
             <p>Hygge on pieni kahvila, jonka ideana on skandinaavinen kodikkuus.
                 Meiltä saa kahvia, teetä, korvapuusteja ja kevyitä lounaita.
@@ -23,7 +33,7 @@
             </div>
         </section>
 
-        <section class="osio">
+        <section class="osio" id="valikoima">
             <h2>Valikoima ja tilaaminen</h2>
 
             <ul class="tiedot-lista">
@@ -41,7 +51,7 @@
             </ol>
         </section>
 
-        <section class="osio">
+        <section class="osio" id="lounaslista">
             <h2>Lounaslista</h2>
 
             <table class="aika-taulukko">
@@ -72,7 +82,7 @@
             </table>
         </section>
 
-        <section class="osio">
+        <section class="osio" id="poytavaraus">
             <h2>Pöytävaraus</h2>
 
             <form method="post" action="#">
@@ -89,7 +99,7 @@
             </form>
         </section>
 
-        <section class="osio">
+        <section class="osio" id="linkit">
             <h2>Linkit</h2>
 
             <p>
