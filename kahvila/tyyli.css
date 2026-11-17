@@ -136,3 +136,16 @@ label {
     margin-bottom: 10px;
     padding-left: 10px;
 }
+
+.linkki {
+    color: #2C5530;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.linkki:hover {
+    color: #1a4121;
+    text-decoration: underline;
+}
