@@ -106,3 +106,11 @@ label {
 .nappi:hover {
     background-color: #1a4121;
 }
+
+#footer {
+    background-color: #2C5530;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
