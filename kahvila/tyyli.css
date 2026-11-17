@@ -149,3 +149,18 @@ label {
     color: #1a4121;
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .kuva-ryhma img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #header h1 {
+        font-size: 2rem;
+    }
+}
